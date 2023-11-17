@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb://0.0.0.0:27017/react-login-tut")
+mongoose.connect("mongodb+srv://sushma:695OpaWcgUi8Dwp6@cluster0.soiwkdz.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("mongodb connected");
 })
