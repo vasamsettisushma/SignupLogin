@@ -1,5 +1,9 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://sushma:695OpaWcgUi8Dwp6@cluster0.soiwkdz.mongodb.net/?retryWrites=true&w=majority")
+
+MONGODB_CONNECT_URI = "mongodb+srv://signup:cIAQvPC7qxZ5vaGi@signup.srmv7gq.mongodb.net/?retryWrites=true&w=majority"
+
+
+mongoose.connect(MONGODB_CONNECT_URI)
 .then(()=>{
     console.log("mongodb connected");
 })
